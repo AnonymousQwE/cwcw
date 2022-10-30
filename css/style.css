@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.slick-arrow{
+    background: none;
+    border: none;
+}
+.dots{
+    display: flex;
+}
+.dots li button{
+    background-color: red;
+}
