@@ -1,26 +1,26 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.slider{
-    padding: 0 50px;
+.slider {
+  position: relative;
 }
-.slick-arrow{
-    background: none;
-    /* border: none; */
-    width: 50px;
-    height: 50px;
-    color: transparent;
+.slick-arrow {
+  position: absolute;
+  background: url(../img/button.svg) center / auto no-repeat;
+  border: none;
+  color: transparent;
+  width: 61px;
+  height: 61px;
 }
-.slick-next{
-    position: absolute;
-    right: 0;
-    top:50%;
+.slick-next {
+  top: 50%;
+  right: 0;
+  rotate: 180deg;
 }
-.slick-prev{
-    position: absolute;
-    left: 0;
-    top: 50%;
-    z-index: 2;
+.slick-prev {
+  top: 50%;
+  left: -10px;
+  z-index: 100;
 }
